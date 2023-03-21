@@ -41,12 +41,13 @@ const Home: NextPage = () => {
       >
         <Grid xs={12} sm={6} alignItems='center'>
           <Col css={{ "width" : '100%' }}>
-            <Text weight={"bold"} size={70} css={{ "textAlign": 'center' }}>
+            <Text weight={"bold"} size={70} css={{ "textAlign": "center" }}>
               The Education Platform
             </Text>
-            <Text weight={"bold"} size={70} css={{ "textAlign": 'center' }}>
+            <Text weight={"bold"} size={70} css={{ "textAlign": "center" }}>
               Of The Future
             </Text>
+            <Button size={"md"} shadow color="gradient" css={{ "width": "100%", "marginTop": "10px" }}>
 
       </Grid.Container>
 
@@ -55,7 +56,8 @@ const Home: NextPage = () => {
       
     </Container>
 
-    
+    {/* El 17 de marzo 2023 conseguimos trabajo David Verde y Dario Alessio. Por esa razon
+    hemos suspendido el trabajo en esta app de manera temporal */}
 
 
   )
